@@ -1,0 +1,121 @@
+.bootstrap {
+    background-color:#f5f5f5;
+    padding: 108px 32px;
+}
+
+.bootstrap-header {
+    /* width: 100%; */
+    text-align: center;
+}
+
+.bootstrap-header__title {
+    font-family: 'Raleway';
+    font-size: 2.57rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.bootstrap-header__title::after {
+    margin: 30px auto 0 auto;
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2d;
+}
+
+.bootstrap-header__desc {
+    margin-bottom: 80px;
+}
+
+.bootstrap-content__item {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+
+.bootstrap-content__title,
+.bootstrap-content__price {
+    background-color: #2f2f2f;
+    border-bottom: 1px solid #f5f5f5;
+    margin: 0;
+}
+
+.bootstrap-content__title {
+    font-size: 1.42rem;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0;
+}
+
+.bootstrap-content__price {
+    padding-top: 28px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 6.7rem;
+    line-height: 3.8rem;
+    color: white; 
+}
+
+.bootstrap-content__price-small {
+    font-size: 2.5rem;
+}
+
+.bootstrap-content__desc {
+    padding: 15px 0;
+    background-color: #2f2f2f;
+    font-style: italic;
+    margin: 0;
+    color: #979797;
+}
+
+
+.bootstrap-content__feauture {
+    margin: 0;
+    min-height: 5px;
+    background-color: #ffffff;
+    font-weight: normal;
+    line-height: 3rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.bootstrap-content__feauture--accent {
+    min-height: 5px;
+    background-color: #ff8c2d;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    .bootstrap-header__title {
+        margin-bottom: 16px;
+    }
+
+    .bootstrap-header__desc {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .bootstrap-content__item {
+        margin-bottom: 32px;
+    }
+
+    .bootstrap {
+       padding: 0;
+    }
+
+    .bootstrap-header__title {
+        padding-top: 30px;
+    }
+
+}
